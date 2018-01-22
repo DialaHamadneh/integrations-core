@@ -5,7 +5,8 @@
 
 ### Changes
 
-* [BUG] Fixes bug that causes poor failovers when authentication fails. [#1026][].
+* [BUG] Fixes bug that causes poor failovers when authentication fails. See [#1026][].
+* [IMPROVEMENT] Adds `cluster_name` tag to the `elasticsearch.cluster_health` service check. See [#1038][].
 
 
 1.4.0 / 2018-01-10
